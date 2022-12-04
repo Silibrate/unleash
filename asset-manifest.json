@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/unleash/static/css/main.930368ed.css",
+    "main.js": "/unleash/static/js/main.bdc55957.js",
+    "static/js/787.fea7ece8.chunk.js": "/unleash/static/js/787.fea7ece8.chunk.js",
+    "static/media/communityBG.svg": "/unleash/static/media/communityBG.8ec832418c31f1f8362a.svg",
+    "static/media/headerBg.svg": "/unleash/static/media/headerBg.855ae601851c7bb49ebe.svg",
+    "static/media/gamingBg.svg": "/unleash/static/media/gamingBg.b246e88fba8402fb3cf0.svg",
+    "static/media/genreBg3.svg": "/unleash/static/media/genreBg3.2f90e650321c2b8f19f2.svg",
+    "static/media/genreBg2.svg": "/unleash/static/media/genreBg2.d89cc63744fc5865c5d0.svg",
+    "static/media/genreBg1.svg": "/unleash/static/media/genreBg1.8b9bfb346f9a18cf9522.svg",
+    "static/media/esports.svg": "/unleash/static/media/esports.49ab8f8d68ea2548f632812d0de9de61.svg",
+    "static/media/customize.svg": "/unleash/static/media/customize.44e5cf557781d02d8ca262aa44b0e0a2.svg",
+    "static/media/newEraIMAGE.svg": "/unleash/static/media/newEraIMAGE.405285c073c8394360cfddbc0c3bb60d.svg",
+    "static/media/karusel1.svg": "/unleash/static/media/karusel1.f945adfd3e9361fd3fe8260508b4b198.svg",
+    "static/media/karusel2.svg": "/unleash/static/media/karusel2.4ba8f41cfa02529494086775beb08d1c.svg",
+    "static/media/karusel3.svg": "/unleash/static/media/karusel3.7300cce5981f4bfb7599874d2c11b394.svg",
+    "static/media/madeImage.svg": "/unleash/static/media/madeImage.65a521da684a8ca3c6dc61c7877b3613.svg",
+    "static/media/footerLogo.svg": "/unleash/static/media/footerLogo.0bcbbae6820807bc7a5826b592545b1d.svg",
+    "static/media/headerLogo.svg": "/unleash/static/media/headerLogo.014760f2bbc3c18ba919700cf5d7046f.svg",
+    "static/media/fire.svg": "/unleash/static/media/fire.90ecbcfd3753c2769db3a8bba9953a06.svg",
+    "static/media/genreImg2.svg": "/unleash/static/media/genreImg2.c37d890387ff1a60778b4c5655bf8ccd.svg",
+    "static/media/headerBusket.svg": "/unleash/static/media/headerBusket.b15a93b274e5bdc393d1881f7d779231.svg",
+    "static/media/slick.svg": "/unleash/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/unleash/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/unleash/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/genreImg1.svg": "/unleash/static/media/genreImg1.0e0d5a98a63e997bdbe4c28d30a9fc19.svg",
+    "static/media/slick.woff": "/unleash/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/genreImg3.svg": "/unleash/static/media/genreImg3.1e8a888c734f373c1163b6435ea8d727.svg",
+    "index.html": "/unleash/index.html",
+    "static/media/romb.svg": "/unleash/static/media/romb.89a64ff5a6a42666d9aed51391b1caa2.svg",
+    "static/media/titleImage.svg": "/unleash/static/media/titleImage.9cc68b34e70cd029a9f048a47e300adc.svg",
+    "static/media/sponsorsImage.svg": "/unleash/static/media/sponsorsImage.ab830250b1c899cad6db9307fc9ff67b.svg",
+    "main.930368ed.css.map": "/unleash/static/css/main.930368ed.css.map",
+    "main.bdc55957.js.map": "/unleash/static/js/main.bdc55957.js.map",
+    "787.fea7ece8.chunk.js.map": "/unleash/static/js/787.fea7ece8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.930368ed.css",
+    "static/js/main.bdc55957.js"
+  ]
+}
