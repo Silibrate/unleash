@@ -1,0 +1,167 @@
+.customize {
+  background: #2A313C;
+  display: flex;
+
+  .future {
+    margin: 0;
+    margin-bottom: 14px;
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    color: #57B8FF;
+  }
+
+  .fire {
+    margin-left: -2px;
+    margin-right: 9px;
+    margin-top: 1px;
+  }
+
+  .image {
+    margin-left: 61px;
+  }
+
+  .container {
+    position: relative;
+    margin-left: 127px;
+  }
+
+  .title {
+    max-width: 558px;
+    margin: 0;
+    margin-bottom: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  .text {
+    max-width: 561px;
+    margin: 0;
+    margin-bottom: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+  }
+
+  .slick__container {
+    width: 174px;
+    height: 103px;
+  }
+
+  .slid__img {
+    width: 100%;
+  }
+
+  @media screen and (max-width:1376px) {
+    .container {
+      margin-left: 50px;
+      margin-right: 30px;
+    }
+  }
+
+  @media screen and (max-width:1330px) {
+    .title {
+      font-size: 44px;
+    }
+  }
+
+  @media screen and (max-width:1212px) {
+    .title {
+      line-height: 54px;
+    }
+
+    .text {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width:1118px) {
+    .title {
+      font-size: 34px;
+    }
+
+    .image {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width:1118px) {
+    .image {
+      height: 502px;
+      align-self: end;
+    }
+  }
+
+  @media screen and (max-width:956px) {
+    .title {
+      line-height: 38px;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      margin-left: 10px;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .image {
+      position: absolute;
+      bottom: 0;
+      opacity: 0.7;
+    }
+
+    .future {
+      margin-top: 20px;
+    }
+
+    .container {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width:596px) {
+    .container {
+      max-width: calc(100% - 60px);
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .text {
+      text-align: center;
+    }
+
+    .image {
+      opacity: 0.4;
+    }
+  }
+}
+
+@media screen and (max-width:800px) {
+  .customize {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px;
+  }
+}

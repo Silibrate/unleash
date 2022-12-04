@@ -1,0 +1,79 @@
+.genre {
+  display: flex;
+  height: 730px;
+
+  .fps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 109vw;
+    background-image: url("../../images/genreBg1.svg");
+    background-size: cover;
+    height: 730px;
+  }
+
+  .multiplayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 109vw;
+    background-image: url("../../images/genreBg2.svg");
+    background-size: cover;
+    height: 730px;
+  }
+
+  .world {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 109vw;
+    background-image: url("../../images/genreBg3.svg");
+    background-size: cover;
+    height: 730px;
+  }
+
+  .text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  @media screen and (max-width:1114px) {
+    .text {
+      font-size: 38px;
+    }
+  }
+
+  @media screen and (max-width:810px) {
+    .multiplayer {
+      height: 858px;
+      width: auto;
+    }
+
+    .world {
+      height: 858px;
+      width: auto;
+    }
+
+    .fps {
+      height: 858px;
+      width: auto;
+    }
+  }
+}
+
+@media screen and (max-width:810px) {
+  .genre {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+}

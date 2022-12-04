@@ -1,0 +1,92 @@
+.sponsors {
+  background: #FDD04A;
+  padding: 128px 0 111px 0;
+
+  .title {
+    position: relative;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222730;
+  }
+
+  .text {
+    margin: 0;
+    margin: auto;
+    margin-top: 44px;
+    margin-bottom: 42px;
+    max-width: 576px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #555555;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: calc(100% - 120px);
+  }
+
+  .card {
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .line {
+    position: absolute;
+    bottom: -16px;
+    right: 533px;
+  }
+
+  @media screen and (max-width:1304px) {
+    .card {
+      margin-right: 20px;
+    }
+
+    .cards {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width:1267px) {
+    .line {
+      right: 374px;
+    }
+  }
+
+  @media screen and (max-width:879px) {
+    .line {
+      right: 188px;
+    }
+  }
+
+  @media screen and (max-width:590px) {
+    .text {
+      max-width: calc(100% - 50px);
+    }
+  }
+
+  @media screen and (max-width:531px) {
+    .line {
+      right: 0;
+    }
+
+    .title {
+      font-size: 38px;
+    }
+  }
+}

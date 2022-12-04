@@ -1,0 +1,170 @@
+.newEra {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(100% - 120px);
+  margin: auto;
+  padding: 165px 60px 130px 60px;
+
+  .future {
+    margin: 0;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #57B8FF;
+  }
+
+  .fire {
+    margin-left: -2px;
+    margin-right: 9px;
+    margin-top: 1px;
+  }
+
+  .title {
+    max-width: 684px;
+    margin: 0;
+    margin-bottom: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  .text {
+    max-width: 721px;
+    margin: 0;
+    margin-bottom: 53px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+  }
+
+  .button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 21px 34px 21px 34px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      background-color: #57B8FF;
+    }
+  }
+
+  .image {
+    margin-top: -35px;
+  }
+
+  @media screen and (max-width:1340px) {
+    .image {
+      margin-left: 20px;
+    }
+  }
+
+  @media screen and (max-width:1164px) {
+    .title {
+      font-size: 54px;
+      line-height: 55px;
+    }
+
+    .image {
+      max-width: 400px;
+    }
+  }
+
+  @media screen and (max-width:1107px) {
+    .title {
+      font-size: 44px;
+    }
+  }
+
+  @media screen and (max-width:1002px) {
+    .title {
+      font-size: 34px;
+      line-height: 35px;
+    }
+
+    .text {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .future {
+      justify-content: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .text {
+      text-align: center;
+    }
+
+    .button {
+      max-width: 204px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
+    .image {
+      align-self: center;
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width:444px) {
+    .image {
+      max-width: 300px;
+    }
+  }
+
+  @media screen and (max-width:357px) {
+    .future {
+      max-width: 150px;
+      align-self: center;
+    }
+
+    .title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    .button {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width:800px) {
+  .newEra {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
